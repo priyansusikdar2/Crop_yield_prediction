@@ -563,9 +563,6 @@ git clone https://github.com/yourusername/crop-yield-prediction.git
 # Install development dependencies
 pip install -r requirements-dev.txt
 
-# Run tests
-pytest tests/
-
 # Check code style
 flake8 src/
 black src/
