@@ -59,26 +59,18 @@ The **AI-Powered Crop Yield Prediction System** is a sophisticated machine learn
 - **SHAP Explanations**: Understand what drives predictions
 
 ## 🏗️ System Architecture
-┌─────────────────────────────────────────────────────────────────┐
-│ Frontend (HTML/CSS/JS) │
-│ Interactive Dashboard & Charts │
-└─────────────────────────────┬───────────────────────────────────┘
-│ HTTP/REST API
-▼
-┌─────────────────────────────────────────────────────────────────┐
-│ FastAPI Backend Server │
-│ (Port 8000 - Local Development) │
-├─────────────────────────────────────────────────────────────────┤
-│ • Request Validation • Model Loading • Response Formatting │
-└─────────────────────────────┬───────────────────────────────────┘
-│
-▼
-┌─────────────────────────────────────────────────────────────────┐
-│ TensorFlow LSTM Model │
-│ Multi-Head Attention + Batch Normalization │
-├─────────────────────────────────────────────────────────────────┤
-│ Input: (3 timesteps × 16 features) → Output: Yield (kg/ha) │
-└─────────────────────────────────────────────────────────────────┘
+
+```mermaid
+flowchart TD
+    A["Frontend (HTML/CSS/JS)<br/>Interactive Dashboard & Charts"]
+    B["FastAPI Backend Server<br/>(Port 8000 - Local Development)<br/>Request Validation<br/>Model Loading<br/>Response Formatting"]
+    C["TensorFlow LSTM Model<br/>Multi-Head Attention + Batch Normalization"]
+    D["Yield Prediction (kg/ha)"]
+
+    A -->|HTTP/REST API| B
+    B --> C
+    C --> D
+```
 
 text
 
