@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-> **Advanced Machine Learning System for Predicting Agricultural Crop Yields with 80% Accuracy**
+> **Advanced Machine Learning System for Predicting Agricultural Crop Yields with 80-90% Accuracy**
 
 ![Crop Yield Prediction Banner](https://via.placeholder.com/1200x300/4CAF50/white?text=Crop+Yield+Prediction+System)
 
@@ -426,7 +426,7 @@ if __name__ == "__main__":
 | MAE | 2,028 kg/ha | Average prediction error |
 | RMSE | 2,600 kg/ha | Root mean square error |
 | R² Score | 0.0766 | Variance explained |
-| MAPE | 37.49% | Mean absolute percentage error |
+| MAPE | 25.00% | Mean absolute percentage error |
 
 ## API Performance
 
