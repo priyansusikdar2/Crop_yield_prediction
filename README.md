@@ -419,34 +419,45 @@ def test_prediction():
     assert "predicted_yield_kg_ha" in response.json()
     print("✅ Prediction test passed")
 
+```python
 if __name__ == "__main__":
     test_health()
     test_prediction()
-📊 Performance Metrics
-Model Performance (Test Set)
-Metric	Value	Interpretation
-MAE	2,028 kg/ha	Average prediction error
-RMSE	2,600 kg/ha	Root mean square error
-R² Score	0.0766	Variance explained
-MAPE	37.49%	Mean absolute percentage error
-API Performance
-Endpoint	Avg Response Time	Throughput
-GET /health	< 10ms	1000+ req/s
-GET /crops	< 15ms	1000+ req/s
-POST /predict	200-500ms	50 req/s
-📁 Project Structure
-text
+```
+
+# 📊 Performance Metrics
+
+## Model Performance (Test Set)
+
+| Metric | Value | Interpretation |
+|---------|---------|---------|
+| MAE | 2,028 kg/ha | Average prediction error |
+| RMSE | 2,600 kg/ha | Root mean square error |
+| R² Score | 0.0766 | Variance explained |
+| MAPE | 37.49% | Mean absolute percentage error |
+
+## API Performance
+
+| Endpoint | Avg Response Time | Throughput |
+|-----------|------------------|------------|
+| GET /health | < 10 ms | 1000+ req/s |
+| GET /crops | < 15 ms | 1000+ req/s |
+| POST /predict | 200–500 ms | 50 req/s |
+
+# 📁 Project Structure
+
+```text
 crop-yield-prediction/
 │
-├── api/                          # FastAPI backend
+├── api/
 │   ├── app.py                    # Main API application
 │   ├── schemas.py                # Pydantic models
 │   └── test_api.py               # API tests
 │
-├── frontend/                     # Web interface
+├── frontend/
 │   └── index.html                # Main dashboard
 │
-├── src/                          # Source code
+├── src/
 │   ├── __init__.py
 │   ├── preprocess.py             # Data preprocessing
 │   ├── model.py                  # Model architecture
@@ -456,18 +467,18 @@ crop-yield-prediction/
 │   ├── attention.py              # Attention layers
 │   └── tune.py                   # Hyperparameter tuning
 │
-├── models/                       # Trained models
+├── models/
 │   ├── best_model_advanced.h5    # Best performing model
 │   ├── scaler_X_advanced.pkl     # Feature scaler
 │   ├── scaler_y_advanced.pkl     # Target scaler
 │   └── feature_cols.pkl          # Feature names
 │
-├── data/                         # Dataset directory
+├── data/
 │   ├── weather_data.csv          # Weather data
 │   ├── soil_data.csv             # Soil data
 │   └── crop_data.csv             # Crop data
 │
-├── notebooks/                    # Jupyter notebooks
+├── notebooks/
 │   └── exploration.ipynb         # Data exploration
 │
 ├── requirements.txt              # Python dependencies
@@ -476,9 +487,63 @@ crop-yield-prediction/
 ├── test_api.py                   # API test script
 ├── README.md                     # This file
 └── LICENSE                       # MIT License
-🤝 Contributing
+```
+
+# 🤝 Contributing
+
 We welcome contributions! Here's how you can help:
 
+## 🐛 Reporting Issues
+
+- Use the GitHub Issue Tracker
+- Provide detailed reproduction steps
+- Include error messages and screenshots
+
+## 💡 Feature Requests
+
+- Describe the feature and its benefits
+- Provide use cases and examples
+
+## 🔀 Pull Requests
+
+1. Fork the repository
+
+2. Create a feature branch
+
+```bash
+git checkout -b feature/AmazingFeature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add AmazingFeature"
+```
+
+4. Push to branch
+
+```bash
+git push origin feature/AmazingFeature
+```
+
+5. Open a Pull Request
+
+## 🛠️ Development Setup
+
+```bash
+# Clone your fork
+git clone https://github.com/yourusername/crop-yield-prediction.git
+
+# Install development dependencies
+pip install -r requirements-dev.txt
+
+# Run tests
+pytest tests/
+
+# Check code style
+flake8 src/
+black src/
+```
 Reporting Issues
 Use the GitHub issue tracker
 
