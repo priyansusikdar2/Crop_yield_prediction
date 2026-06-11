@@ -380,20 +380,22 @@ Prediction History: Local storage for tracking predictions
 Screenshots
 Dashboard
 text
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │  🌾 AI-Powered Crop Yield Prediction                        │
 │  Predict crop yields with 95% accuracy                     │
 ├─────────────────────────────────────────────────────────────┤
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
-│  │ Temperature  │  │   Rainfall   │  │   Humidity   │     │
-│  │    24.5°C    │  │    850 mm    │  │     65%      │     │
-│  └──────────────┘  └──────────────┘  └──────────────┘     │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
+│  │ Temperature  │  │   Rainfall   │  │   Humidity   │      │
+│  │    24.5°C    │  │    850 mm    │  │     65%      │      │
+│  └──────────────┘  └──────────────┘  └──────────────┘      │
 ├─────────────────────────────────────────────────────────────┤
-│  ┌─────────────────────────────────────────────────────┐   │
-│  │              Prediction Results                      │   │
-│  │  Yield: 5,234 kg/ha  |  Confidence: 85%            │   │
-│  └─────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────┐    │
+│  │                Prediction Results                  │    │
+│  │  Yield: 5,234 kg/ha  |  Confidence: 85%           │    │
+│  └─────────────────────────────────────────────────────┘    │
 └─────────────────────────────────────────────────────────────┘
+```
 🧪 Testing Guide
 Using Postman
 Import Collection: Download crop_yield_api_collection.json
@@ -562,37 +564,7 @@ furnished to do so, subject to the following conditions...
 If you found this project helpful, please give it a ⭐ on GitHub!
 
 <div align="center"> <sub>Built with ❤️ for sustainable agriculture</sub> </div> ```
-This README is comprehensive, professional, and includes everything needed for a GitHub repository. It covers:
 
-Project Overview - Clear explanation of what the system does
-
-Features - Detailed feature list with emojis
-
-Architecture - Visual system architecture
-
-Tech Stack - Complete technology overview
-
-Installation - Step-by-step setup guide
-
-Quick Start - Get running in minutes
-
-API Documentation - Complete API reference
-
-Model Architecture - Deep learning details
-
-Testing Guide - Postman and Python testing
-
-Performance Metrics - Real numbers
-
-Project Structure - File organization
-
-Contributing - How to help
-
-Future Plans - Roadmap
-
-License - MIT license
-
-Contact - Support information
 
 
 
