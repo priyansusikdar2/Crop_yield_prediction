@@ -11,20 +11,20 @@
 ![Crop Yield Prediction Banner](https://via.placeholder.com/1200x300/4CAF50/white?text=Crop+Yield+Prediction+System)
 
 ## 📋 Table of Contents
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [System Architecture](#-system-architecture)
-- [Technology Stack](#-technology-stack)
-- [Installation Guide](#-installation-guide)
-- [Quick Start](#-quick-start)
-- [API Documentation](#-api-documentation)
-- [Model Architecture](#-model-architecture)
-- [Frontend Application](#-frontend-application)
-- [Testing Guide](#-testing-guide)
-- [Performance Metrics](#-performance-metrics)
-- [Project Structure](#-project-structure)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [Overview]
+- [Key Features]
+- [System Architecture]
+- [Technology Stack]
+- [Installation Guide]
+- [Quick Start]
+- [API Documentation]
+- [Model Architecture]
+- [Frontend Application]
+- [Testing Guide]
+- [Performance Metrics]
+- [Project Structure]
+- [Contributing]
+- [License]
 
 ## 🎯 Overview
 
@@ -381,21 +381,18 @@ Screenshots
 Dashboard
 text
 ```text
-┌─────────────────────────────────────────────────────────────┐
-│  🌾 AI-Powered Crop Yield Prediction                        │
-│  Predict crop yields with 95% accuracy                     │
-├─────────────────────────────────────────────────────────────┤
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
-│  │ Temperature  │  │   Rainfall   │  │   Humidity   │      │
-│  │    24.5°C    │  │    850 mm    │  │     65%      │      │
-│  └──────────────┘  └──────────────┘  └──────────────┘      │
-├─────────────────────────────────────────────────────────────┤
-│  ┌─────────────────────────────────────────────────────┐    │
-│  │                Prediction Results                  │    │
-│  │  Yield: 5,234 kg/ha  |  Confidence: 85%           │    │
-│  └─────────────────────────────────────────────────────┘    │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    A[Frontend<br/>HTML/CSS/JS<br/>Interactive Dashboard & Charts]
+    B[FastAPI Backend Server<br/>Port 8000<br/>Request Validation<br/>Model Loading<br/>Response Formatting]
+    C[TensorFlow LSTM Model<br/>Multi-Head Attention<br/>Batch Normalization]
+    D[Yield Prediction kg/ha]
+
+    A -->|HTTP/REST API| B
+    B --> C
+    C --> D
 ```
+
 🧪 Testing Guide
 Using Postman
 Import Collection: Download crop_yield_api_collection.json
