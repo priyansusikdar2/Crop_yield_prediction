@@ -1,0 +1,11 @@
+model_type: advanced
+mae_normalized: 0.1843917816877365
+mse_normalized: 0.05588125064969063
+mae_real: 2028.3096240234374
+rmse_real: 2600.313694269287
+r2_real: 0.07663768076231847
+mape_real: 37.48822610853117
+train_samples: 796
+test_samples: 200
+n_features: 20
+input_shape: (3, 20)
