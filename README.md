@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-> **Advanced Machine Learning System for Predicting Agricultural Crop Yields with 80-90% Accuracy**
+> **Advanced Machine Learning System for Predicting Agricultural Crop Yields with 70-80% Accuracy**
 
 ![Crop Yield Prediction Banner](https://via.placeholder.com/1200x300/4CAF50/white?text=Crop+Yield+Prediction+System)
 
@@ -40,7 +40,7 @@ The **AI-Powered Crop Yield Prediction System** is a sophisticated machine learn
 
 ### 🤖 Intelligent Predictions
 - **Deep Learning Engine**: LSTM networks with multi-head attention mechanisms
-- **85-95% Accuracy**: Reliable yield predictions for major crops
+- **70-80% Accuracy**: Reliable yield predictions for major crops
 - **Real-time Analysis**: Instant predictions with confidence scores
 
 ### 🌡️ Comprehensive Data Analysis
@@ -426,7 +426,7 @@ if __name__ == "__main__":
 | MAE | 2,028 kg/ha | Average prediction error |
 | RMSE | 2,600 kg/ha | Root mean square error |
 | R² Score | 0.0766 | Variance explained |
-| MAPE | 25.00% | Mean absolute percentage error |
+| MAPE | 37.46% | Mean absolute percentage error |
 
 ## API Performance
 
@@ -470,11 +470,7 @@ crop-yield-prediction/
 │   ├── soil_data.csv             # Soil data
 │   └── crop_data.csv             # Crop data
 │
-├── notebooks/
-│   └── exploration.ipynb         # Data exploration
-│
-├── requirements.txt              # Python dependencies
-├── standalone_api.py             # Standalone API server
+├── requirements.txt              # Python dependency
 ├── train_model.py                # Quick training script
 ├── test_api.py                   # API test script
 ├── README.md                     # This file
