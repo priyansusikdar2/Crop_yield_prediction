@@ -379,8 +379,6 @@ Prediction History: Local storage for tracking predictions
 
 Screenshots
 Dashboard
-text
-```text
 ```mermaid
 flowchart TD
     A[Frontend<br/>HTML/CSS/JS<br/>Interactive Dashboard & Charts]
