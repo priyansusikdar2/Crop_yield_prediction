@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-> **Advanced Machine Learning System for Predicting Agricultural Crop Yields with 85-95% Accuracy**
+> **Advanced Machine Learning System for Predicting Agricultural Crop Yields with 80% Accuracy**
 
 ![Crop Yield Prediction Banner](https://via.placeholder.com/1200x300/4CAF50/white?text=Crop+Yield+Prediction+System)
 
